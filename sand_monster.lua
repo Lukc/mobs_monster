@@ -1,4 +1,6 @@
 
+local S = mobs.intllib
+
 -- Sand Monster by PilzAdam
 
 mobs:register_mob("mobs_monster:sand_monster", {
@@ -56,7 +58,7 @@ mobs:register_mob("mobs_monster:sand_monster", {
 
 mobs:register_spawn("mobs_monster:sand_monster", {"default:desert_sand", "default:sand"}, 20, 0, 3500, 2, 31000)
 
-mobs:register_egg("mobs_monster:sand_monster", "Sand Monster", "default_desert_sand.png", 1)
+mobs:register_egg("mobs_monster:sand_monster", S("Sand Monster"), "default_desert_sand.png", 1)
 
 -- compatibility
 mobs:alias_mob("mobs:sand_monster", "mobs_monster:sand_monster")

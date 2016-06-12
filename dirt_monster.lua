@@ -1,4 +1,6 @@
 
+local S = mobs.intllib
+
 -- Dirt Monster by PilzAdam
 
 mobs:register_mob("mobs_monster:dirt_monster", {
@@ -51,7 +53,7 @@ mobs:register_mob("mobs_monster:dirt_monster", {
 mobs:register_spawn("mobs_monster:dirt_monster",
 	{"default:dirt_with_grass", "default:dirt_with_snow", "default:dirt_with_dry_grass", "ethereal:gray_dirt"}, 7, 0, 3500, 2, 31000, false)
 
-mobs:register_egg("mobs_monster:dirt_monster", "Dirt Monster", "default_dirt.png", 1)
+mobs:register_egg("mobs_monster:dirt_monster", S("Dirt Monster"), "default_dirt.png", 1)
 
 -- compatibility
 mobs:alias_mob("mobs:dirt_monster", "mobs_monster:dirt_monster")
