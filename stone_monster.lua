@@ -29,6 +29,7 @@ mobs:register_mob("mobs_monster:stone_monster", {
 	view_range = 10,
 	drops = {
 		{name = "default:torch", chance = 2, min = 3, max = 5},
+		{name = "default:copper_lump", chance = 5, min = 1, max = 3},
 		{name = "default:iron_lump", chance = 5, min = 1, max = 2},
 		{name = "default:coal_lump", chance = 3, min = 1, max = 3},
 	},
