@@ -48,7 +48,7 @@ mobs:register_mob("mobs_monster:dirt_monster", {
 })
 
 mobs:register_spawn("mobs_monster:dirt_monster",
-	{"default:dirt_with_grass", "ethereal:gray_dirt"}, 7, 0, 7000, 1, 31000, false)
+	{"default:dirt_with_grass", "default:dirt_with_snow", "default:dirt_with_dry_grass", "ethereal:gray_dirt"}, 7, 0, 7000, 1, 31000, false)
 
 mobs:register_egg("mobs_monster:dirt_monster", "Dirt Monster", "default_dirt.png", 1)
 

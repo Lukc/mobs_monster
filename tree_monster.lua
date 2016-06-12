@@ -50,7 +50,12 @@ mobs:register_mob("mobs_monster:tree_monster", {
 })
 
 mobs:register_spawn("mobs_monster:tree_monster",
-	{"default:leaves", "default:jungleleaves"}, 7, 0, 7000, 1, 31000, false)
+	{
+		"default:leaves", "default:jungleleaves",
+		"default:acacia_leaves", "default:aspen_leaves",
+		"default:pine_needles"
+	},
+	7, 0, 7000, 1, 31000, false)
 
 mobs:register_egg("mobs_monster:tree_monster", "Tree Monster", "default_tree_top.png", 1)
 
